@@ -1,0 +1,118 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.swiper{
+    margin-top: 0px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+.firstImageSlider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    width: 25%;
+    height: 100%;
+}
+
+.secondImageSlider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.followUsContainer{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagramContainer{
+    height: 100%;
+    width: 200px;
+}
+#insta{
+    height: 100%;
+    width: 100%;
+}
+.atContainer{
+    margin-left: 10px;
+    height: 100%;
+    
+}
+.atContainer h1{
+    font-size: 40px;
+    color: #0eb554;
+}
+#atSymbol{
+    width: 100%;
+    height: 100%;
+}
+.instaName h1{
+    font-size: 40px;
+    color: #0eb554;
+
+}
+
+@media (max-width: 1000px){
+    .swiper{
+        height: 280px;
+    }
+}
+@media (max-width: 950px){
+    .swiper{
+        height: 270px;
+    }
+}
+@media (max-width: 900px){
+    .swiper{
+        height: 260px;
+    }
+}
+@media (max-width: 850px){
+    .swiper{
+        height: 250px;
+    }
+}
+
+@media (max-width: 800px){
+    .swiper{
+        height: 240px;
+    }
+}
+@media (max-width: 750px){
+    .swiper{
+        height: 230px;
+    }
+}
+@media (max-width: 700px){
+    .swiper{
+        height: 220px;
+    }
+}
+@media (max-width: 650px){
+    .swiper{
+        height: 210px;
+    }
+}
+@media (max-width: 600px){
+    .swiper{
+        height: 200px;
+    }
+}

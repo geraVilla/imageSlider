@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto slideshow</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Black+And+White+Picture&family=Cabin+Sketch:wght@400;700&family=Caveat+Brush&family=Concert+One&family=Darumadrop+One&family=Fjalla+One&family=Francois+One&family=Fredericka+the+Great&family=Gochi+Hand&family=Lilita+One&family=Lobster&family=Londrina+Solid:wght@400;900&family=Montserrat:ital,wght@0,300;0,500;0,700;1,300&family=Nerko+One&family=Pangolin&family=Permanent+Marker&family=Reenie+Beanie&family=Roboto+Slab&family=Rochester&family=Rock+Salt&family=Sail&family=Sedgwick+Ave+Display&family=Tapestry&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+
+
+    <div class="followUsContainer">
+        <div class="instagramContainer">
+            <img src="./instagram.svg" alt="" id="insta">
+        </div>
+        <div class="atContainer">
+            <!--<img src="./atabaque.png" alt="" id="atSymbol">-->
+            <h1>@</h1>
+        </div>
+        <div class="instaName">
+            <h1>taqueriamichocansc</h1>
+        </div>
+    </div>
+
+<div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="firstImageSlider">
+            <img src="./image-1.jpg" alt="" class="image">
+            <img src="./image-2.jpg" alt="" class="image">
+            <img src="./image-3.jpg" alt="" class="image">
+            <img src="./image-4.jpg" alt="" class="image">
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="secondImageSlider">
+            <img src="./image-5.jpg" alt="" class="image">
+            <img src="./image-6.jpg" alt="" class="image">
+            <img src="./image-7.jpg" alt="" class="image">
+            <img src="./image-8.jpg" alt="" class="image">
+        </div>
+      </div>
+      
+    
+    </div>
+    
+</div>
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+
+  autoplay: {
+    delay: 1800,
+  },
+});
+    </script>
+
+
+</body>
+</html>
